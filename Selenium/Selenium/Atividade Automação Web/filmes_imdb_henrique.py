@@ -9,7 +9,7 @@ servico = Service(ChromeDriverManager().install())
 
 navegador = webdriver.Chrome(service=servico)
 
-# Abrir o site IMDb
+
 navegador.get('https://www.imdb.com/')
 
 
